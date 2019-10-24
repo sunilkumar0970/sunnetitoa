@@ -1,0 +1,7 @@
+UserName1,password,status
+Dan,WinterSun2018,invalid
+Pavan,sun,invalid
+"",WinterSun2018,invalid
+Daniel,,invalid
+"",,invalid
+Daniel,WinterSun2018,valid

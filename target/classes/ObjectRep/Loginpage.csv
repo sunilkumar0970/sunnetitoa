@@ -1,0 +1,11 @@
+ObjectName,LocatorType,ObjectProperties
+Username,xPath,//input[@id='userName']
+Password,xPath,//input[@id='password']
+Loginbtn,xPath,//input[@id='loginForm_0']
+ProfileElement,cssselector,body.skin-blue.top-menu.sidebar-collapse.pace-done:nth-child(2) header.main-header:nth-child(5) nav.navbar.navbar-static-top.yamm:nth-child(4) div.navbar-custom-menu ul.nav.navbar-nav li.dropdown:nth-child(3) > a.dropdown-toggle
+Projecttype,xPath,//*[@id='s2id_project.tempProjectWoLink.costCenterType']
+Logo,xPath,/html/body/header/a/span[2]
+Login,xPath,//*[@id='loginForm']
+userlogin,xPath,/html/body/header/nav/div[2]/ul/li[3]/a
+userlogout,xPath,//*[@id="logOutSession"]
+vm,xPath,//*[@id="loginForm"]/ul

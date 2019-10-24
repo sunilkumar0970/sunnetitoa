@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [HANA_MArketing_Automation]">
+  <test thread-count="1" parallel="classes" name="HANA_MArketing_Automation(failed)">
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="osversion" value="7"/>
+    <parameter name="version" value="74"/>
+    <classes>
+      <class name="com.hana.marketing.Test.TCAmenitiesDallas">
+        <methods>
+          <include name="getBrowserType"/>
+          <include name="TC_VerifyTeam_Amenities"/>
+          <include name="getBrowser"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="closeAllDriver"/>
+        </methods>
+      </class> <!-- com.hana.marketing.Test.TCAmenitiesDallas -->
+    </classes>
+  </test> <!-- HANA_MArketing_Automation(failed) -->
+</suite> <!-- Failed suite [HANA_MArketing_Automation] -->

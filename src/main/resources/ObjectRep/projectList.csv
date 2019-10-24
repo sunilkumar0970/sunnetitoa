@@ -1,0 +1,25 @@
+ObjectType,LocatorType,ObjectProperties
+ProjectList,linktext,Projects List
+FilterStartDate,xPath,//input[@id='filterStartDate']
+FilterEndDate,xPath,//input[@id='filterEndDate']
+Enddatelabel,xPath,/html/body/div[2]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[3]/div/span
+Table,xPath,//*[@id='projectList']
+DateTypecolumncount,xPath,"//*[@id=\""projectList\""]/thead/tr[1]/th"
+datetype,xPath,/html/body/div[2]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[4]
+Range,xPath,/html/body/div[2]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[4]/div/ul/li[1]/a
+StartOREND,xPath,//*[@id='collapseOne']/div/div/div[1]/div[4]/div/ul/li[2]/a
+ProjectStatus,cssSelector,.Multiple > button:nth-child(1)
+StatusItems,xPath,//*[@id='collapseOne']/div/div/div[2]/div/ul/li[2]
+ExportlistBox,xPath,"//*[@id=""collapseOne""]/div/div/div[5]"
+ExportListItems,xPath,"//*[@id=""collapseOne""]/div/div/div[5]/ul"
+showhidecol,xPath,//*[@class='dt-buttons']
+allcolmns,xPath,//*[@class='dt-button-collection']
+clrarfilter,linktext,Clear Filters
+statusul,xPath,//*[@id='collapseOne']/div/div/div[2]/div/ul
+projTypeDropdown,xPath,//*[@id='collapseOne']/div/div/div[3]
+PTAllTypeStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[1]"
+PTCustprojStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[2]"
+PTCommprojStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[3]"
+PTCapitalprojStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[4]"
+PTInformationStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[5]"
+Logo,xPath,/html/body/header/a/span[2]

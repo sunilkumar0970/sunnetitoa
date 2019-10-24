@@ -1,0 +1,7 @@
+Startfield,Endfield,Projecttype,Projectnum,Title
+"",06/25/2019,Commercial Project,22,test1
+06/20/2019,,Commercial Project,$22,test2
+06/20/2019,06/25/2019,,$22,test3
+06/20/2019,06/25/2019,Commercial Project,,test4
+06/20/2019,06/25/2019,Commercial Project,$22,
+"",,,,

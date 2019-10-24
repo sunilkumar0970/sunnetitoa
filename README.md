@@ -1,2 +1,1 @@
-# sunnetitoa
-Sunnet Automation
+# SunnetiTOA

@@ -1,0 +1,4 @@
+TestName,TestClass,Execution,ExecutionType,Browser,BrowserVersion,OS,OSVersion
+VerifyLoginFunctionality,com.sunnet.Test.TC_verifyLogin,Yes,Chrome,Chrome,74,Windows,10
+VerifyProjectEnteryValidations,com.sunnet.Test.TC_VerifyProjectEntryValidation,Yes,Chrome,Chrome,74,Windows,10
+Projectsubmit by save and return,com.sunnet.Test.TC_ProjectEntrySubmission,Yes,Chrome,Chrome,74,Windows,10

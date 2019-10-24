@@ -1,0 +1,68 @@
+ObjectType,LocatorType,ObjectProperties
+Project,linktext,Project Entry
+StartDate,xPath,//input[@id='schedStartDate']
+StartdateLabel,xPath,"//*[@id=""createProject""]/div[3]/div[2]/div/div[1]/div[1]/label[1]"
+Enddate,xPath,//input[@id='schedEndDate']
+Title,xPath,//input[@id='project_title']
+Description,xPath,//textarea[@id='project.projectDesc']
+projtype,id,project.projectType
+Projtypitem,xPath,//*[@class='select2-results-dept-0 select2-result select2-result-selectable']
+projnum,xPath,//*[@id='projectNum']
+costcentre,id,project.tempProjectWoLink.costCenterType
+costcentreitem,xPath,//*[@class='select2-results-dept-0 select2-result select2-result-selectable']
+WorkCentre,xPath,//*[@id='work_center_type']
+Addoutage,xPath,//*[@id='outageId']
+saveandreturn,xPath,//*[@id='submitSaveReturn']
+Logo,xPath,/html/body/header/a/span[2]
+ProjectList,linktext,Projects List
+Filtericon,xPath,//*[@id='filterRowIcon']/a/span
+projecttitle,xPath,//input[@id='DT_Filter_2']
+verification,xPath,"//*[@id=""projectList""]/tbody/tr[1]/td[2]"
+addCostcentre,xPath,//button[@id='addCenter']
+costcentre1,xPath,//*[@id='project.projectWoLink[0].costCenterType']
+workcentre1,xPath,//*[@id='project.projectWoLink[0].workCenterType']
+costcentre2,xPath,//*[@id='project.projectWoLink[1].costCenterType']
+workcentre2,xPath,//*[@id='project.projectWoLink[1].workCenterType']
+costcentre3,xPath,//*[@id='project.projectWoLink[2].costCenterType']
+workcentre3,xPath,//*[@id='project.projectWoLink[2].workCenterType']
+costcentre4,xPath,//*[@id='project.projectWoLink[3].costCenterType']
+workcentre4,xPath,//*[@id='project.projectWoLink[3].workCenterType']
+DeleteCostcentre,xPath,//*[@id='deleteCostCenter']
+ProjectManager,xPath,//*[@id='s2id_project.projPerson1']
+ProjManagerItems,xPath,//*[@id='s2id_autogen1_search']
+ProjectManagerop,xPath,//li[@class='select2-results-dept-0 select2-result select2-result-selectable select2-highlighted']
+CommManager,xPath,//*[@id='s2id_project.projPerson2']
+selectCommManager,xPath,//*[@id='s2id_autogen2_search']
+Starttime,xPath,//*[@id='schedStartTime']
+Endtime,xPath,//*[@id='schedEndTime']
+newproject,xPath,//*[@id='newEntryBtn']
+Save,xPath,//*[@id='submitSave']
+return,linktext,Return
+projTypeDropdown,xPath,//*[@id='collapseOne']/div/div/div[3]
+PTAllTypeStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[1]"
+PTCustprojStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[2]"
+PTCommprojStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[3]"
+PTCapitalprojStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[4]"
+PTInformationStatus,xPath,"//*[@id=""collapseOne""]/div/div/div[3]/div/ul/li[5]"
+CreateRequest,xPath,"//button[contains(text(),'Create Request')]"
+systyeDistribution,xPath,//input[@value='Distribution']
+worktype,xPath,//input[@value='1716']
+reqtypeForced,xPath,//input[@value='Forced']
+ScheduleProfile,xPath,//*[@id='scheduleProfile']/div/button
+Scheduleitem,xPath,//*[@id='scheduleProfile']/div/div/ul/li[2]/a
+Reqstsubmit,xPath,//input[@id='submitSaveReturn']
+Action,xPath,//div[@class='btn-group']//child::button[@class='btn btn-default dropdown-toggle']
+RequestSubmit,xPath,//div//child::ul[@id='actionMenu']//li[1]//child::a
+Comment,xPath,//input[@id='comments']
+cnfrmsubmit,linktext,Confirm Submit
+pentryvalidationmsg,xPath,//div[@class='alert alert-danger alertMar']//ul
+ExistingRequist,id,s2id_outage_items
+selectitems,id,outage_items
+OutageDelete,xPath,//span[@class='glyphicon glyphicon-remove btn btn-default btnDel']
+OutagePopUp,xPath,//a[@class='btn btn-primary']
+FilterStartDate,xPath,//input[@id='filterStartDate']
+FilterEndDate,xPath,//input[@id='filterEndDate']
+Enddatelabel,xPath,/html/body/div[2]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[3]/div/span
+Editbutton,xPath,//*[@id='editUrl']
+Actions,xPath,/html/body/div[2]/div/div[3]/div[1]/div[2]/button
+Titlelink,xPath,//*[@id='projectList']/tbody/tr[1]/td[3]/span

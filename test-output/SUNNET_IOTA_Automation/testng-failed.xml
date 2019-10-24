@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [SUNNET_IOTA_Automation]" parallel="classes">
+  <test thread-count="1" name="SUNNET_IOTA_Automation(failed)" parallel="classes">
+    <parameter name="environment" value="Firefox"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="osversion" value="10"/>
+    <parameter name="version" value="74"/>
+    <classes>
+      <class name="com.sunnet.Test.TC_TransmisssionRequest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+          <include name="transmissionType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_TransmisssionRequest -->
+    </classes>
+  </test> <!-- SUNNET_IOTA_Automation(failed) -->
+</suite> <!-- Failed suite [SUNNET_IOTA_Automation] -->

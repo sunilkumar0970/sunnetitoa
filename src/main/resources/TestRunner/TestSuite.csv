@@ -1,0 +1,15 @@
+TestName,TestClass,Execution,ExecutionType,Browser,BrowserVersion,OS,OSVersion
+VerifyLoginFunctionality,com.sunnet.Test.TC_VerifyLogin,No,Firefox,Firefox,74,Windows,10
+VerifyProjectEnteryValidations,com.sunnet.Test.TC_VerifyProjectEntryValidation,No,Firefox,Firefox,74,Windows,10
+Projects Creation by save and return,com.sunnet.Test.TC_ProjectCreation,No,Firefox,Firefox,74,Windows,10
+Verifyproject costcentre and work centre details,com.sunnet.Test.TC_ProjectEntrySchedulingDetails,No,Firefox,Firefox,74,Windows,10
+Verify Create request from project entry,com.sunnet.Test.TC_ProjectEntryWithCreateRequestBySave,No,Firefox,Firefox,74,Windows,10
+Verify the Edit project,com.sunnet.Test.TC_ProjectEntrySubmissionWithEdit,No,Firefox,Firefox,74,Windows,10
+Verifying the adding and deletion of outages.,com.sunnet.Test.TC_OutageAddandDelete,No,Firefox,Firefox,74,Windows,10
+Verifying the PersonalinfoAddandDelete,com.sunnet.Test.TC_PersonalInfoAddandDelete,No,Firefox,Firefox,74,Windows,10
+Verifying the Tabs functionality.,com.sunnet.Test.TC_TabsVerification,No,Firefox,Firefox,74,Windows,10
+database flush script,com.sunnet.Test.database,No,Firefox,Firefox,74,Windows,10
+actions functionality,com.sunnet.Test.TC_Actions,No,Firefox,Firefox,74,Windows,10
+"Project List Filters(All in range,stauts,project type)",com.sunnet.Test.TC_FiltersVerification,No,Firefox,Firefox,74,Windows,10
+Project List Filters1,com.sunnet.Test.TC_FilterVerification,No,Firefox,Firefox,74,Windows,10
+requestentry,com.sunnet.Test.TC_TransmisssionRequest,Yes,Firefox,Firefox,74,Windows,10

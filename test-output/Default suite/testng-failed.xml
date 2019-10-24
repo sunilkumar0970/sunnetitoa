@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.sunnet.Test.TC_PersonalInfoAddandDelete">
+        <methods>
+          <include name="projectEntrySubmit"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_PersonalInfoAddandDelete -->
+      <class name="com.sunnet.Test.TC_ProjectEntrySubmission">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="projectEntrySubmit"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_ProjectEntrySubmission -->
+      <class name="com.sunnet.Test.TC_ProjectCreation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+          <include name="verifyCreateprojectEntry"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_ProjectCreation -->
+      <class name="com.sunnet.Test.TC_ProjectEntrySubmissionWithEdit">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="projectEntrySubmit"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_ProjectEntrySubmissionWithEdit -->
+      <class name="com.sunnet.Test.TC_ProjectEntrySchedulingDetails">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+          <include name="verifyprojectEntrySchdetails"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_ProjectEntrySchedulingDetails -->
+      <class name="com.sunnet.Test.TC_FilterVerification">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+          <include name="projectEntrySubmit"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_FilterVerification -->
+      <class name="com.sunnet.Test.OutageAddandDelete">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="projectOutage"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.OutageAddandDelete -->
+      <class name="com.sunnet.Test.TC_FiltersVerification">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="projectEntrySubmit"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_FiltersVerification -->
+      <class name="com.sunnet.Test.TC_TransmisssionRequest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+          <include name="transmissionType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_TransmisssionRequest -->
+      <class name="com.sunnet.Test.TC_OutageAddandDelete">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+          <include name="projectOutage"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_OutageAddandDelete -->
+      <class name="com.sunnet.Test.TC_TabsVerification">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="projectEntryValidations"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_TabsVerification -->
+      <class name="com.sunnet.Test.TC_VerifyProjectEntryValidation">
+        <methods>
+          <include name="projectEntryValidations"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_VerifyProjectEntryValidation -->
+      <class name="com.sunnet.TestRunner.TestRunner">
+        <methods>
+          <include name="tRun"/>
+        </methods>
+      </class> <!-- com.sunnet.TestRunner.TestRunner -->
+      <class name="com.sunnet.Test.TC_ProjectEntryWithCreateRequestBySave">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="createRequestWithSave"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_ProjectEntryWithCreateRequestBySave -->
+      <class name="com.sunnet.Test.TC_VerifyLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyLoginPage"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_VerifyLogin -->
+      <class name="com.sunnet.Test.TC_Actions">
+        <methods>
+          <include name="actions"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_Actions -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

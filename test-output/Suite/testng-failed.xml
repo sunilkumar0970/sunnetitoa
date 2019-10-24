@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="10" name="HanaAutomationChrome(failed)">
+    <parameter name="aut" value="Chrome"/>
+    <classes>
+      <class name="com.hana.marketing.TestRunner.TestRunner">
+        <methods>
+          <include name="tRun" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hana.marketing.TestRunner.TestRunner -->
+    </classes>
+  </test> <!-- HanaAutomationChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
